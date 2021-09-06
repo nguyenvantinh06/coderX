@@ -8,6 +8,8 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <CategoryListItems/>
+      <CategoryListItems/>
+      <CategoryListItems/>
     </View>
   );
 }
@@ -16,7 +18,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    alignItems: 'stretch',
+    backgroundColor: '#fff',
     justifyContent: 'center',
+    paddingLeft: 16,
+    paddingRight: 16,
+    
+    
   },
 });
